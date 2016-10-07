@@ -1,0 +1,62 @@
+@import url(https://fonts.googleapis.com/css?family=Oswald);
+body {
+  font-family: 'Oswald', serif;
+}
+
+body,
+.btn {
+  background-color: #62D0FF;
+  transition: background-color 1.5s;
+}
+
+#titulo {
+  text-shadow: 2px black 2px black;
+  color: white;
+  padding-bottom: 20px;
+}
+
+#quote-back {
+  padding-top: 5%;
+  padding-bottom: 5%;
+  margin-left: 15%;
+  margin-right: 15%;
+  background-color: white;
+}
+
+#random-quote {
+  margin-left: 5%;
+}
+
+#name,
+#quote {
+  font-size: 4.0em;
+  transition: color 1.5s;
+  word-wrap: break-word;
+  padding-right: 20px;
+  color: #62D0FF;
+}
+
+#name {
+  font-size: 2.0em;
+}
+
+#botoes {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 80px;
+}
+
+.btn {
+  font-size: 2.0em;
+  transition: background-color 1.5s;
+}
+
+.btn:hover {
+  transform: scale(1.1);
+}
+
+#my-name {
+  padding-top: 5px;
+  color: white;
+}
